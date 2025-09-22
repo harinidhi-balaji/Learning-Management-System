@@ -10,12 +10,6 @@ spring:
     password: pB67bzy6mslUS36XONC2A3tqKmjvJw4V
     driver-class-name: org.postgresql.Driver
 
-  # H2 Console (for development)
-  # h2:
-  #   console:
-  #     enabled: true
-  #     path: /h2-console
-
   # JPA Configuration
   jpa:
     hibernate:
@@ -25,14 +19,14 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
-    defer-datasource-initialization: true
+    # defer-datasource-initialization: true
 
   # SQL Initialization
-  sql:
-    init:
-      mode: always
-      data-locations: classpath:data.sql
-      continue-on-error: false
+  # sql:
+  #   init:
+  #     mode: always
+  #     data-locations: classpath:data.sql
+  #     continue-on-error: false
 
   # Thymeleaf Configuration
   thymeleaf:
