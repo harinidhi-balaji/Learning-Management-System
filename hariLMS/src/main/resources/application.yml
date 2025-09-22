@@ -5,7 +5,7 @@ spring:
 
   # Database Configuration (H2 in-memory for development)
   datasource:
-    url: Jdbc:postgresql://dpg-d35pnoodl3ps7394qq2g-a.oregon-postgres.render.com:5432/project_db_g14r
+    url: jdbc:postgresql://dpg-d35pnoodl3ps7394qq2g-a.oregon-postgres.render.com:5432/project_db_g14r
     username: project_db_g14r_user
     password: pB67bzy6mslUS36XONC2A3tqKmjvJw4V
     driver-class-name: org.postgresql.Driver
